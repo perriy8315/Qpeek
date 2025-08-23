@@ -89,7 +89,7 @@ class ClosingReportTest {
 
     @Test
     @DisplayName("create() fail test : member is null or transient")
-    void create_fail_transient_member() throws Exception {
+    void create_fail_transient_member(){
         //given
         Member transientMember = memberWithId(null);
 
