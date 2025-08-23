@@ -8,13 +8,11 @@ import org.mockito.Mockito;
 import org.qpeek.qpeek.domain.member.entity.Member;
 
 import java.time.LocalDate;
-import java.time.ZoneId;
 
 import static org.assertj.core.api.Assertions.*;
 
 class ClosingReportTest {
 
-    private static final ZoneId KST = ZoneId.of("Asia/Seoul");
     private static final LocalDate DATE = LocalDate.of(2025, 8, 24);
 
     private Member memberWithId(Long id) {
